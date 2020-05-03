@@ -1,7 +1,8 @@
+import React from 'react';
 import './style.less';
 class Rainbow extends React.Component {
     render() {
-      
+
       return(
         <div class='Rainbow'>
           <span class="pinkFill"></span>
@@ -11,6 +12,8 @@ class Rainbow extends React.Component {
           <span class="orangeFill"></span>
         </div>
         );
-    
+
     }
 }
+
+export default Rainbow

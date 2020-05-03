@@ -1,4 +1,6 @@
+import React from 'react';
 import './style.less';
+import Rainbow from './Rainbow';
 class NavBar extends React.Component {
     render() {
       return (
@@ -18,8 +20,9 @@ class NavBar extends React.Component {
            <Rainbow />
 
        </div>
-      
+
       );
 
     }
   }
+export default NavBar
