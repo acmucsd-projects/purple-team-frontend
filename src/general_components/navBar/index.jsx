@@ -7,7 +7,7 @@ class NavBar extends React.Component {
            <div className='navbar'>
                 <ul>
                     <li>
-                        <img src='' alt='ACM Logo'></img>
+                        <h1>ACM</h1>
                     </li>
                     <li>
                         View Splash Pages
@@ -15,6 +15,7 @@ class NavBar extends React.Component {
 
                 </ul>
            </div>
+           <Rainbow />
 
        </div>
       
