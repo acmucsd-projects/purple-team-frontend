@@ -3,8 +3,8 @@ class NavBar extends React.Component {
     render() {
       return (
       
-       <div className='navBarBack'>
-           <div className='navbar'>
+       <div class='navBarBack'>
+           <div class='navbar'>
                 <ul>
                     <li>
                         <h1>ACM</h1>

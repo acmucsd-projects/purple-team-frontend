@@ -3,7 +3,7 @@ class Rainbow extends React.Component {
     render() {
       
       return(
-        <div>
+        <div class='Rainbow'>
           <span class="pinkFill"></span>
           <span class="greenFill"></span>
           <span class="cyanFill"></span>
