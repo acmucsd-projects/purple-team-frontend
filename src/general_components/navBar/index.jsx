@@ -1,7 +1,11 @@
 import React from 'react';
 import './style.less';
 import Rainbow from './Rainbow';
+import { BrowserRouter as Link } from 'react-router-dom';
+
 class NavBar extends React.Component {
+    
+    
     render() {
       return (
       
@@ -9,10 +13,10 @@ class NavBar extends React.Component {
            <div class='navbar'>
                 <ul>
                     <li>
-                        <h1>ACM</h1>
+                        <Link to={'/'}> <h1>ACM</h1> </Link>
                     </li>
                     <li>
-                        View Splash Pages
+                        <Link to={'/'}> View Splash Pages </Link>
                     </li>
 
                 </ul>

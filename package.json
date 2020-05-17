@@ -42,5 +42,6 @@
   "bugs": {
     "url": "https://github.com/acmucsd/purple-team-frontend/issues"
   },
-  "homepage": "https://github.com/acmucsd/purple-team-frontend#readme"
+  "homepage": "https://github.com/acmucsd/purple-team-frontend#readme",
+  "devDependencies": {}
 }
