@@ -1,8 +1,7 @@
 import React from 'react';
-import './style.less';
+import './style.css';
 class Rainbow extends React.Component {
     render() {
-
       return(
         <div class='Rainbow'>
           <span class="pinkFill"></span>
