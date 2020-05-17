@@ -4,12 +4,12 @@ class EventCard extends React.Component {
   render() {
     return(
       <div className="event-card">
-        <img className="image" src={props.image} />
+        <img className="image" src={this.props.image} />
+        <h1 className="title">{this.props.title}</h1>
         <div className="info">
-          <h1 className="title">{props.title}</h1>
-          <h2 className="date">{props.date}</h2>
-          <h2 className="location">{props.location}</h2>
-          <h2 className="time">{props.time}</h2>
+          <h2 className="date">{this.props.date}</h2>
+          <h2 className="location">{this.props.location}</h2>
+          <h2 className="time">{this.props.time}</h2>
         </div>
       </div>
     );
