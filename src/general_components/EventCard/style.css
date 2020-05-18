@@ -1,0 +1,70 @@
+.event-card {
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 10px;
+  position: relative;
+  height: 262px;
+  width: 304px;
+
+  img {
+    height: 60%;
+    margin: 0;
+    object-fit: image;
+    width: 100%;
+  }
+
+  .title {
+    position: relative;
+    width: 286px;
+    height: 34px;
+    left: 11px;
+    top: 168px;
+  }
+
+  .info {
+    position: absolute;
+    width: 195px;
+    height: 51px;
+    left: 53;
+    top: 202;
+
+    > * {
+      margin: 0;
+    }
+
+    .date {
+
+    }
+
+    .location {
+
+    }
+
+    .time {
+
+    }
+  }
+}
+
+h1 {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+
+h2 {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 17px;
+  text-align: center;
+  color: #000000;
+}
