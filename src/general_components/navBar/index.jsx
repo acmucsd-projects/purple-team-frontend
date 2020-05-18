@@ -1,5 +1,6 @@
 import React from 'react';
 import Rainbow from './Rainbow';
+import './style.css';
 class NavBar extends React.Component {
   render() {
     return (
