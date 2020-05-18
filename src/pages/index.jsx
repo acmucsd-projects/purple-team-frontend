@@ -6,7 +6,6 @@ class Page extends React.Component {
     return (
       <>
         <Navbar />
-        <p>Hello World</p>
       </>
     );
   }

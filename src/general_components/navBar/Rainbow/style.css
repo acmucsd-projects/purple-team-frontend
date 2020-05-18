@@ -1,35 +1,57 @@
 .Rainbow>.pinkFill {
-    background-color: #fc3b7d;
-    display: table-cell;
-    width: 35vw;
+    position: absolute;
+    left: 0%;
+    right: 69.6%;
+    top: 0%;
+    bottom: 0%;
+
+    background: #FC3B7D;
 }
 
 .Rainbow>.greenFill {
-    background-color: #3adf9c;
-    display: table-cell;
-    width: 15vw;
+    position: absolute;
+    left: 30.13%;
+    right: 43.83%;
+    top: 0%;
+    bottom: 0%;
+
+    background: #3ADF9C;
 }
 
 .Rainbow>.cyanFill {
-    background-color: #2cb3d7;
-    display: table-cell;
-    width: 20vw;
+    position: absolute;
+    left: 44.53%;
+    right: 32%;
+    top: 0%;
+    bottom: 0%;
+
+    background: #2CB3D7;
 }
 
 .Rainbow>.purpleFill {
-    background-color: #684afa;
-    display: table-cell;
-    width: 20vw;
+    position: absolute;
+    left: 66.93%;
+    right: 11.2%;
+    top: 0%;
+    bottom: 0%;
+
+    background: #684AFA;
 }
 
 .Rainbow>.orangeFill {
-    background-color: #fda44e;
-    display: table-cell;
-    width: 10vw;
+    position: absolute;
+    left: 87.2%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    background: #FDA44E;
 }
 
 .Rainbow {
-    width: 100vw;
-    height: .4em;
-    display: table;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 90%;
+    bottom: 0%;
 }
