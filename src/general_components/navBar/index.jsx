@@ -1,6 +1,6 @@
 import React from 'react';
 import Rainbow from './Rainbow';
-import { ReactComponent as Logo } from '../../assets/acm.svg';
+
 import './style.css';
 
 
@@ -9,7 +9,7 @@ class NavBar extends React.Component {
     return (
       <div className="navBar">
         <div className="logo">
-            <Logo />
+            acm
         </div>
 
         <div className="view">
