@@ -3,7 +3,6 @@ import Rainbow from './Rainbow';
 import { Link } from 'react-router-dom';
 import './style.css';
 
-
 class NavBar extends React.Component {
   render() {
     return (
