@@ -15,7 +15,6 @@ class NavBar extends React.Component {
         <div className="view">
           {this.props.isListPage === 'true' ? <Link>Create a Splash Page </Link> : <Link>View Splash Pages </Link>}
 
-           
         </div>
         <Rainbow />
       </div>

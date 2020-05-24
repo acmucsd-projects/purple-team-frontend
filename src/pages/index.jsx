@@ -4,6 +4,7 @@ import {ReactComponent as Diamond} from '../assets/diamonds.svg';
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import splashForm from './splash-form';
 
+
 class Page extends React.Component {
   render() {
     return (
