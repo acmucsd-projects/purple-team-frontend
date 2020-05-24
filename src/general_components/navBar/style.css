@@ -12,12 +12,17 @@
     left: 2.95%;
     right: 91.75%;
     top: 28.51%;
-    bottom: 36.51%;
+    bottom: 30.16%;
+    display: flex;
+
     font-weight: 700;
     font-family:"DM Sans", sans-serif;
     font-size: 40px;
     font-size: 2.6vw;
     line-height: 26px;
+
+    align-items: center;
+    text-align: center;
 }
 
 .view {
@@ -39,6 +44,12 @@
     align-items: center;
     text-align: center;
 
+    color: #000000;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
     color: #000000;
 
 }

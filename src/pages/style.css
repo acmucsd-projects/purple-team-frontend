@@ -1,0 +1,9 @@
+.diamonds{
+    position: fixed;
+    width: 100vw;
+    height: 42vh;
+    left: 0%;
+    top: 68.6%;
+    z-index:-1;
+    overflow: hidden;
+}
