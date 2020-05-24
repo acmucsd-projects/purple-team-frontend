@@ -3,12 +3,12 @@ import './style.css';
 class Rainbow extends React.Component {
     render() {
       return(
-        <div class='Rainbow'>
-          <span class="pinkFill"></span>
-          <span class="greenFill"></span>
-          <span class="cyanFill"></span>
-          <span class="purpleFill"></span>
-          <span class="orangeFill"></span>
+        <div className='Rainbow'>
+          <span className="pinkFill"></span>
+          <span className="greenFill"></span>
+          <span className="cyanFill"></span>
+          <span className="purpleFill"></span>
+          <span className="orangeFill"></span>
         </div>
         );
 

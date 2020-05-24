@@ -1,13 +1,23 @@
 import React from 'react';
-import Navbar from '../general_components/navBar';
+import './style.css';
+import {ReactComponent as Diamond} from '../assets/diamonds.svg';
+import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import splashForm from './splash-form';
+
 
 class Page extends React.Component {
   render() {
     return (
-      <>
-        <Navbar />
-        <p>Hello World</p>
-      </>
+      <Router>
+          <Switch>
+            <Route exact path='/' component={splashForm} />
+            {/*<Route path='/list' component={splash-listing} />
+            <Route path='/event' render={(props) => <Dashboard {...props} event={} />} />*/}
+          </Switch>
+          <div className="diamonds">
+            <Diamond />
+          </div>
+        </Router>
     );
   }
 }
