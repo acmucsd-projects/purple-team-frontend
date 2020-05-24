@@ -1,21 +1,23 @@
 import React from 'react';
-import Navbar from '../general_components/navBar';
-import EventCard from '../general_components/EventCard';
+
+import './style.css';
+import {ReactComponent as Diamond} from '../assets/diamonds.svg';
+import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import splashForm from './splash-form';
 
 class Page extends React.Component {
   render() {
     return (
-      <>
-        <Navbar />
-        <p>Hello World</p>
-        <EventCard
-          image='https://imgur.com/bUniKin.png'
-          title='ACM memes around on skribble'
-          date='February 30, 2020'
-          location='ur mum'
-          time='4:20 pm'
-        />
-      </>
+      <Router>
+          <Switch>
+            <Route exact path='/' component={splashForm} />
+            {/*<Route path='/list' component={splash-listing} />
+            <Route path='/event' render={(props) => <Dashboard {...props} event={} />} />*/}
+          </Switch>
+          <div className="diamonds">
+            <Diamond />
+          </div>
+        </Router>
     );
   }
 }

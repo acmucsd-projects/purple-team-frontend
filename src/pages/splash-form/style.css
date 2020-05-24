@@ -1,0 +1,16 @@
+#welcome{
+    position: absolute;
+    width: 43.3%;
+    height: 20%;
+    left: 8.25%;
+    top: 34.4%;
+
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 47px;
+
+    color: #000000;
+    
+}

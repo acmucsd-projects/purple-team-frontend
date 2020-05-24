@@ -1,18 +1,19 @@
 import React from 'react';
 import Rainbow from './Rainbow';
+import { Link } from 'react-router-dom';
 import './style.css';
 
 class NavBar extends React.Component {
   render() {
     return (
-      <div class="navBarBack">
-        <div class="navbar">
-          <ul>
-            <li>
-              <h1>ACM</h1>
-            </li>
-            <li>View Splash Pages</li>
-          </ul>
+      <div className="navBar">
+        <div className="logo">
+            acm
+        </div>
+
+        <div className="view">
+          {this.props.isListPage === 'true' ? <Link>Create a Splash Page </Link> : <Link>View Splash Pages </Link>}
+
         </div>
         <Rainbow />
       </div>
