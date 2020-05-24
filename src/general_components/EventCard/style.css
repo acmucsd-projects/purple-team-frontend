@@ -3,72 +3,37 @@
   border: 1px solid #000000;
   box-sizing: border-box;
   border-radius: 10px;
-  position: relative;
-  height: 262px;
-  width: 304px;
+  height: 300px;
+  width: 325px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 
-  .image_container {
-    position: absolute;
-    height: 262px;
-    margin: 0;
-    width: 304px;
-  }
-  .image_container img {
-    width: 100%;
-    height: auto;
-  }
-
-  .title {
-    position: relative;
-    width: 286px;
-    height: 34px;
-    left: 11px;
-    top: 168px;
-  }
-
-  .info {
-    position: absolute;
-    width: 195px;
-    height: 51px;
-    left: 53;
-    top: 202;
-
-    > * {
-      margin: 0;
-    }
-
-    .date {
-
-    }
-
-    .location {
-
-    }
-
-    .time {
-
-    }
-  }
 }
 
-h1 {
+.image_container img {
+  width: 100%;
+  height: auto;
+}
+
+
+.title {
   font-family: DM Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
-  line-height: 21px;
-  display: flex;
+  font-size: 18px;
+  line-height: 12px;
   align-items: center;
   text-align: center;
   color: #000000;
 }
 
-h2 {
+.info h2 {
   font-family: DM Sans;
   font-style: normal;
   font-weight: normal;
   font-size: 13px;
-  line-height: 17px;
+  line-height: 10px;
   text-align: center;
   color: #000000;
 }
