@@ -7,11 +7,15 @@
   height: 262px;
   width: 304px;
 
-  img {
-    height: 60%;
+  .image_container {
+    position: absolute;
+    height: 262px;
     margin: 0;
-    object-fit: image;
+    width: 304px;
+  }
+  .image_container img {
     width: 100%;
+    height: auto;
   }
 
   .title {
