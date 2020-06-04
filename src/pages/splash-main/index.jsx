@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from '../../general_components/navBar';
+import PropTypes from 'prop-types';
 
 import './style.css';
 
