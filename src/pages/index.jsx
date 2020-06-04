@@ -11,7 +11,7 @@ class Page extends React.Component {
           <Switch>
             <Route exact path='/' component={splashForm} />
             {/*<Route path='/list' component={splash-listing} />*/}
-            <Route path='/event' render={(props) => <Dashboard {...props} event={} />} /> {/* this is the page, yo can pass in props here*/}
+            {/*<Route path='/event' render={(props) => <Dashboard {...props} event={} />} /> {/* this is the page, yo can pass in props here*/}
           </Switch>
           <div className="diamonds">
             <Diamond />
