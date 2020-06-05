@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../../general_components/navBar';
 import {ReactComponent as Welcome} from '../../assets/welcome.svg';
 import CreateForm from './newEventForm';
+
 import './style.css';
 
 
