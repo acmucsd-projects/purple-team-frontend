@@ -1,0 +1,29 @@
+.image_container img {
+  width: 15%;
+  height: 20%;
+  float: left;
+}
+
+.info_container {
+
+}
+
+.title h1 {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 20px;
+  text-align: left;
+  color: #000000;
+}
+
+.info h2 {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 15px;
+  text-align: left;
+  color: #000000;
+}
