@@ -10,15 +10,16 @@ class Page extends React.Component {
     return (
         <Router>
           <Switch>
-          
+
             <Route exact path='/' component={splashForm} />
             {/*<Route path='/list' component={splash-listing} />*/}
-            <Route path='/event'
-                    render={(props) => (<splashMain {...props}
-                    event={"Sribble memes",
-                           "6:00",
-                           "6:30",
-                           "m3m3s"}/>)}
+            <Route path='/event' component={splashMain}
+                    render={(routeProps) => <splashMain {...routeProps}
+                      image="https://static-template.acmucsd.com/static/media/logo.34f30e9c.png"
+                      title="skribl memes"
+                      startTime="4:20"
+                      foodArrival="4:20"
+                      code="m3m3s"/>}
             /> {/* this is the page, yo can pass in props here*/}
           </Switch>
           <div className="diamonds">
