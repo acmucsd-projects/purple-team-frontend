@@ -3,6 +3,7 @@ import Rainbow from './Rainbow';
 import { Link } from 'react-router-dom';
 import './style.css';
 
+
 class NavBar extends React.Component {
   render() {
     return (
@@ -12,8 +13,7 @@ class NavBar extends React.Component {
         </div>
 
         <div className="view">
-          {this.props.isListPage === 'true' ? <Link>Create a Splash Page </Link> : <Link>View Splash Pages </Link>}
-
+          {this.props.isListPage === 'true' ? <Link to="/">Create a Splash Page </Link> : <Link to="/view">View Splash Pages </Link>}   
         </div>
         <Rainbow />
       </div>
